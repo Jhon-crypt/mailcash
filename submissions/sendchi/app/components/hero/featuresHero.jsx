@@ -1,5 +1,5 @@
-import { CiMobile3 } from "react-icons/ci";
 import { MdCurrencyExchange } from "react-icons/md";
+import { FaWallet } from "react-icons/fa6";
 
 export default function FeaturesHero() {
 
@@ -53,7 +53,7 @@ export default function FeaturesHero() {
                                 <div class="card border-0 text-start bg-light" style={{ borderRadius: "24px", }}>
                                     <div class="card-body px-4 pt-5 mb-3">
                                         <span class=" bg-warning p-3" style={{ borderRadius: "50px" }}>
-                                            <MdCurrencyExchange style={{ fontSize: "20px" }} />
+                                            <FaWallet style={{ fontSize: "20px" }} />
                                         </span>
                                         <h2 class="display-6 lh-1 mt-5">Wallet as a service</h2>
                                     </div>
