@@ -10,7 +10,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body style={{ backgroundColor: "#D9D9D9" }} data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">{children}</body>
       <BootstrapClientJs />
     </html>
   );
