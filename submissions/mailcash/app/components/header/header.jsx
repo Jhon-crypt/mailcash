@@ -1,4 +1,5 @@
 import { TbMailFast } from "react-icons/tb";
+import Link from "next/link";
 
 export default function Header() {
 
@@ -9,7 +10,7 @@ export default function Header() {
             <nav class="navbar navbar-expand-lg navbar-light">
                 <div class="container">
                     <a class="navbar-brand" href="#">
-                        <b><TbMailFast class="me-1" style={{ fontSize: "30px" }}/>Mailcash</b>
+                        <b><TbMailFast class="me-1" style={{ fontSize: "30px" }}/>Mail<span class="border-bottom border-warning border-2">cash</span></b>
                     </a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -21,13 +22,13 @@ export default function Header() {
                             <a class="nav-link" href="#">Support</a>
                             <a class="nav-link" href="#">Features</a>
                             
-                        </div>
-                        <button class="btn btn-white rounded me-2">
+                        </div> 
+                        <Link href="/home" class="btn btn-white rounded me-2 text-decoration-none">
                             Login
-                        </button>
-                        <button class="btn btn-dark px-4" style={{ borderRadius: "20px" }}>
+                        </Link>
+                        <Link href='/home' class="btn btn-dark px-4 text-decoration-none" style={{ borderRadius: "20px" }}>
                             Open Account
-                        </button>
+                        </Link>
                     </div>
                 </div>
             </nav>

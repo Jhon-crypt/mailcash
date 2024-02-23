@@ -1,5 +1,26 @@
-@import url('./fonts/WEB/css/general-sans.css');
+@import url("./fonts/WEB/css/general-sans.css");
 
-body{
-    font-family: 'GeneralSans-Medium';
+body {
+  font-family: "GeneralSans-Medium";
+  background-color: #D9D9D9;
+}
+
+.layout {
+  height: 100%;
+  display: grid;
+  grid-template-areas: "sidebar body";
+  grid-template-columns: auto 1fr;
+  gap: 8px;
+}
+
+.sidebar {
+  background-color: #F8F9fa;
+  grid-area: sidebar;
+  width: 240px;
+  height: 35.5em;
+  
+}
+.layout-body {
+  width:100%;
+  grid-area: body;
 }
