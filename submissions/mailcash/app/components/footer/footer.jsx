@@ -1,5 +1,5 @@
 import { FaRegNewspaper } from "react-icons/fa";
-import { AiOutlineThunderbolt } from "react-icons/ai";
+import { TbMailFast } from "react-icons/tb";
 
 export default function Footer() {
 
@@ -48,10 +48,10 @@ export default function Footer() {
 
                         <div class="container">
                             <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 text-light">
-                                <p class="col-md-4 mb-0"> 2023 SendChi, Inc</p>
+                                <p class="col-md-4 mb-0"> 2023 Mailcash</p>
 
                                 <a href="/" class="text-light col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto text-decoration-none">
-                                    <b><AiOutlineThunderbolt class="me-1" style={{ color: "#FFDD33" }} />Sendchi</b>
+                                    <b><TbMailFast class="me-1" style={{ color: "#FFDD33", fontSize: "30px" }} />Mailcash</b>
                                 </a>
 
                                 <ul class="nav col-md-4 justify-content-end">

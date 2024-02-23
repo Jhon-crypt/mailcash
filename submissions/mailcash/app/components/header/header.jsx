@@ -1,4 +1,4 @@
-import { AiOutlineThunderbolt } from "react-icons/ai";
+import { TbMailFast } from "react-icons/tb";
 
 export default function Header() {
 
@@ -9,7 +9,7 @@ export default function Header() {
             <nav class="navbar navbar-expand-lg navbar-light">
                 <div class="container">
                     <a class="navbar-brand" href="#">
-                        <b><AiOutlineThunderbolt class="me-1" style={{ color: "#FFDD33" }}/>Sendchi</b>
+                        <b><TbMailFast class="me-1" style={{ fontSize: "30px" }}/>Mailcash</b>
                     </a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>

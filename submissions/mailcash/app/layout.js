@@ -3,7 +3,7 @@ import BootstrapClientJs from "./components/bootstrapJs/bootstrapClient"
 import "./globals.css";
 
 export const metadata = {
-  title: "SendChi",
+  title: "MailCash",
   description: "",
 };
 
