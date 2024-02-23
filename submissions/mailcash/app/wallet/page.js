@@ -1,6 +1,26 @@
+"use client"
+import { TbMailFast } from "react-icons/tb";
 import SidebarHeader from "../components/header/sidebarHeader";
+import { isMobile } from 'react-device-detect';
+import { FaCaretRight } from "react-icons/fa";
+import MobileSidebar from "../components/header/mobileSidebar";
+import { useEffect, useState } from "react"
 
 export default function MyWallet() {
+
+    const [Mobile, setIsMobile] = useState(false);
+
+    useEffect(() => {
+
+        if (isMobile) {
+            setIsMobile(true)
+        } else {
+            setIsMobile(false)
+        }
+
+    }, []);
+
+    
 
     return (
 
