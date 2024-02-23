@@ -11,7 +11,7 @@ export default function SidebarHeader(props) {
 
         <>
 
-            <div class="sidebar border-end pt-4 shadow" style={{ borderTopRightRadius: '10px', borderBottomRightRadius: '25px' }}>
+            <div class="sidebar border-end pt-4 shadow" style={{ borderTopRightRadius: '10px', borderBottomRightRadius: '10px' }}>
                 <div class="ms-4">
                     <a class="navbar-brand" href="#">
                         <b><span style={{ fontSize: "35px" }}><TbMailFast class="me-1" /></span><span style={{ fontSize: "25px" }}>Mail<span class="border-bottom border-warning border-2">cash</span></span></b>

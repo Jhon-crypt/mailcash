@@ -18,9 +18,24 @@ body {
   grid-area: sidebar;
   width: 240px;
   height: 35.5em;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  overflow-y: auto;
   
 }
 .layout-body {
   width:100%;
   grid-area: body;
+  height: 100em;
+}
+
+
+.layout-body-browser {
+  width: calc(100% - 240px);
+  grid-area: body;
+  height: 100em;
+  margin-left: 240px; 
+  overflow-y: auto; 
 }
