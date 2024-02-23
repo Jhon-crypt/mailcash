@@ -1,0 +1,41 @@
+@import url("./fonts/WEB/css/general-sans.css");
+
+body {
+  font-family: "GeneralSans-Medium";
+  background-color: #D9D9D9;
+}
+
+.layout {
+  height: 100%;
+  display: grid;
+  grid-template-areas: "sidebar body";
+  grid-template-columns: auto 1fr;
+  gap: 8px;
+}
+
+.sidebar {
+  background-color: #F8F9fa;
+  grid-area: sidebar;
+  width: 240px;
+  height: 35.5em;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  overflow-y: auto;
+  
+}
+.layout-body {
+  width:100%;
+  grid-area: body;
+  height: 100em;
+}
+
+
+.layout-body-browser {
+  width: calc(100% - 240px);
+  grid-area: body;
+  height: 100em;
+  margin-left: 240px; 
+  overflow-y: auto; 
+}
