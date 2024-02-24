@@ -7,6 +7,8 @@ import MobileSidebar from "../components/header/mobileSidebar";
 import { useEffect, useState } from "react"
 import IncomeCards from "../components/cards/incomeCards";
 import IncomeAnalyticCard from "../components/cards/InocmeAnalyticCard";
+import TransactionHistory from "../components/cards/transactionHistory.card";
+import MobileTransactionHistoryCard from "../components/cards/mobileTransactionHistoryCard";
 
 export default function Home() {
 
@@ -30,7 +32,7 @@ export default function Home() {
                     <>
                         <section class="layout">
 
-                            <div class="layout-body p-3">
+                            <div class="layout-body">
 
                                 <nav class="navbar navbar-expand-sm fixed-top border-bottom">
                                     <div class="container">
@@ -50,8 +52,10 @@ export default function Home() {
 
 
                                 <div class="container pt-5 mt-5">
-                                    <IncomeCards />
-                                    <IncomeAnalyticCard />
+                                    <div class="row row-cols-1">
+                                        <div class="col"><IncomeCards /></div>
+                                        <div class="col"><MobileTransactionHistoryCard /></div>
+                                    </div>
                                 </div>
                             </div>
                         </section>
@@ -93,6 +97,7 @@ export default function Home() {
                                 <div class="container mt-5">
                                     <IncomeCards />
                                     <IncomeAnalyticCard />
+                                    <TransactionHistory />
                                 </div>
                             </div>
                         </section>
