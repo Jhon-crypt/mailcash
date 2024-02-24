@@ -5,7 +5,8 @@ import { isMobile } from 'react-device-detect';
 import { FaCaretRight } from "react-icons/fa";
 import MobileSidebar from "../components/header/mobileSidebar";
 import { useEffect, useState } from "react"
-
+import IncomeCards from "../components/cards/incomeCards";
+import IncomeAnalyticCard from "../components/cards/InocmeAnalyticCard";
 
 export default function Home() {
 
@@ -31,7 +32,7 @@ export default function Home() {
 
                             <div class="layout-body p-3">
 
-                                <nav class="navbar navbar-expand-sm fixed border-bottom">
+                                <nav class="navbar navbar-expand-sm fixed-top border-bottom">
                                     <div class="container">
                                         <a class="navbar-brand text-decoration-none text-dark">
                                             <b><TbMailFast class="me-1" style={{ fontSize: "30px" }} />Mail<span class="border-bottom border-warning border-2">cash</span></b>
@@ -49,15 +50,16 @@ export default function Home() {
 
 
                                 <div class="container pt-5 mt-5">
-
+                                    <IncomeCards />
+                                    <IncomeAnalyticCard />
                                 </div>
                             </div>
                         </section>
                         <MobileSidebar
                             sidebar_color1="#FFDD33"
                             sidebar_color2="white"
-                            sidebar_color3=""
-                            sidebar_color4=""
+                            sidebar_color3="white"
+                            sidebar_color4="white"
                         />
                     </>
                 ) : (
@@ -88,8 +90,9 @@ export default function Home() {
                                     </div>
                                 </div>
 
-                                <div class="container pt-5 mt-5">
-
+                                <div class="container mt-5">
+                                    <IncomeCards />
+                                    <IncomeAnalyticCard />
                                 </div>
                             </div>
                         </section>

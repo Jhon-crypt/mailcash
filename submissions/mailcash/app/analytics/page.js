@@ -31,7 +31,7 @@ export default function Analytics() {
 
                             <div class="layout-body p-3">
 
-                                <nav class="navbar navbar-expand-sm fixed border-bottom">
+                                <nav class="navbar navbar-expand-sm fixed-top border-bottom">
                                     <div class="container">
                                         <a class="navbar-brand text-decoration-none text-dark">
                                             <b><TbMailFast class="me-1" style={{ fontSize: "30px" }} />Mail<span class="border-bottom border-warning border-2">cash</span></b>
@@ -76,7 +76,7 @@ export default function Analytics() {
 
                                 <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
                                     <h6 class="display-6">
-                                        Welcome John
+                                        Analytics
                                     </h6>
                                     <div class="d-flex align-items-center bg-light p-2" style={{ borderRadius: '25px', backgroundColor: "#F8F9fa" }}>
                                         <div class="flex-shrink-0">

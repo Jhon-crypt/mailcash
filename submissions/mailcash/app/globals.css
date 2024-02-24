@@ -28,14 +28,14 @@ body {
 .layout-body {
   width:100%;
   grid-area: body;
-  height: 100em;
+  height: 35em;
 }
 
 
 .layout-body-browser {
   width: calc(100% - 240px);
   grid-area: body;
-  height: 100em;
+  height: 35em;
   margin-left: 240px; 
   overflow-y: auto; 
 }
