@@ -32,7 +32,7 @@ export default function MyWallet() {
 
                             <div class="layout-body p-3">
 
-                                <nav class="navbar navbar-expand-sm fixed border-bottom">
+                                <nav class="navbar navbar-expand-sm fixed-top border-bottom">
                                     <div class="container">
                                         <a class="navbar-brand text-decoration-none text-dark">
                                             <b><TbMailFast class="me-1" style={{ fontSize: "30px" }} />Mail<span class="border-bottom border-warning border-2">cash</span></b>
