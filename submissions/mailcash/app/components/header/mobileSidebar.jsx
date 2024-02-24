@@ -1,10 +1,9 @@
 "use client"
 import { TbMailFast } from "react-icons/tb";
 import { FaHome } from "react-icons/fa";
-import { FaChartLine } from "react-icons/fa6";
+import { SiMinutemailer } from "react-icons/si";
 import { FaWallet } from "react-icons/fa";
 import { FaCog } from "react-icons/fa";
-import Link from "next/link";
 import { useRouter } from "next/navigation"
 
 
@@ -17,7 +16,7 @@ export default function MobileSidebar(props) {
     };
 
     const redirectToAnalytics = () => {
-        router.push("/analytics")
+        router.push("/transfer")
     };
 
     const redirectToWallet = () => {
@@ -54,7 +53,7 @@ export default function MobileSidebar(props) {
                             <a class="nav-link text-decoraion-none text-dark" onClick={redirectToAnalytics} data-bs-dismiss="offcanvas">
                                 <div class="d-grid">
                                     <button type="button" class="btn btn-md btn-outline-dark px-4 me-md-2 py-2 btn-block text-dark" style={{ borderRadius: '25px', backgroundColor: `${props.sidebar_color2}`, }}>
-                                        <FaChartLine class="me-2" />Analytics
+                                        <SiMinutemailer class="me-2" />Analytics
                                     </button>
                                 </div>
                             </a>

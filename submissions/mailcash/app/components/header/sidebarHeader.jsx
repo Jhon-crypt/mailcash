@@ -1,6 +1,6 @@
 import { TbMailFast } from "react-icons/tb";
 import { FaHome } from "react-icons/fa";
-import { FaChartLine } from "react-icons/fa6";
+import { SiMinutemailer } from "react-icons/si";
 import { FaWallet } from "react-icons/fa";
 import { FaCog } from "react-icons/fa";
 import Link from "next/link";
@@ -27,9 +27,9 @@ export default function SidebarHeader(props) {
                         </Link>
                     </li>
                     <li class="nav-item">
-                        <Link class="nav-link text-decoraion-none text-dark" href="/analytics" style={{ display: "flex", justifyContent: "space-between" }}>
+                        <Link class="nav-link text-decoraion-none text-dark" href="/transfer" style={{ display: "flex", justifyContent: "space-between" }}>
                             <button type="button" class="btn btn-md px-4 me-md-2 py-2" style={{ borderRadius: '25px', backgroundColor: `${props.sidebar_color2}`,width: "150px" }}>
-                                <FaChartLine class="me-2" />Analytics
+                                <SiMinutemailer class="me-2" />Transfer
                             </button>
                         </Link>
                     </li>

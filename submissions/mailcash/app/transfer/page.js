@@ -76,7 +76,7 @@ export default function Analytics() {
 
                                 <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
                                     <h6 class="display-6">
-                                        Analytics
+                                        Transfer
                                     </h6>
                                     <div class="d-flex align-items-center bg-light p-2" style={{ borderRadius: '25px', backgroundColor: "#F8F9fa" }}>
                                         <div class="flex-shrink-0">
